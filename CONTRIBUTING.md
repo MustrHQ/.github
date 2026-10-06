@@ -4,6 +4,7 @@ Thanks for helping. Each application has its own, more detailed guide — start 
 
 - [Rota contributing guide](https://github.com/MustrHQ/rota/blob/main/CONTRIBUTING.md)
 - [Stock contributing guide](https://github.com/MustrHQ/stock/blob/main/CONTRIBUTING.md)
+- [Recipes contributing guide](https://github.com/MustrHQ/recipes/blob/main/CONTRIBUTING.md)
 
 The same ground rules apply across every MustrHQ project:
 

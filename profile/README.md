@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>Open-source rota, clock-in and stock control for kitchens.</strong><br>
+  <strong>Open-source rota, clock-in, stock control and recipe screens for kitchens.</strong><br>
   Self-hosted on ordinary PHP + MySQL hosting. No per-user fees, no lock-in.
 </p>
 
@@ -27,9 +27,10 @@
 |---|---|---|
 | **[Rota](https://github.com/MustrHQ/rota)** | Staff clock-in on a wall tablet with a PIN, weekly rota, late / no-show tracking, timesheets, wages and labour cost per brand. | [![Rota release](https://img.shields.io/github/v/release/MustrHQ/rota?label=&color=01216C)](https://github.com/MustrHQ/rota/releases/latest) |
 | **[Stock](https://github.com/MustrHQ/stock)** | Stock counts, stales and ingredient waste, ordering with printable purchase orders, barcode scanning and stock-loss reporting. | [![Stock release](https://img.shields.io/github/v/release/MustrHQ/stock?label=&color=01216C)](https://github.com/MustrHQ/stock/releases/latest) |
+| **[Recipes](https://github.com/MustrHQ/recipes)** | Recipe screens on the kitchen tablet — ingredients, photos and step-by-step guides with timers — plus use-by labels printed straight from the bench. | [![Recipes release](https://img.shields.io/github/v/release/MustrHQ/recipes?label=&color=01216C)](https://github.com/MustrHQ/recipes/releases/latest) |
 
 Both are built for delivery-only ("dark") kitchens running several brands from one team, and
-work just as well in cafés, bakeries and restaurants. Install one or both, side by side.
+work just as well in cafés, bakeries and restaurants. Install any of them, side by side.
 
 ### How they are built
 
@@ -44,7 +45,7 @@ work just as well in cafés, bakeries and restaurants. Install one or both, side
 
 ### Get involved
 
-- Found a bug or have an idea? Open an issue on [Rota](https://github.com/MustrHQ/rota/issues)
-  or [Stock](https://github.com/MustrHQ/stock/issues).
+- Found a bug or have an idea? Open an issue on [Rota](https://github.com/MustrHQ/rota/issues),
+  [Stock](https://github.com/MustrHQ/stock/issues) or [Recipes](https://github.com/MustrHQ/recipes/issues).
 - Want to help build it? Read the [contributing guide](https://github.com/MustrHQ/.github/blob/main/CONTRIBUTING.md).
 - Found a security problem? Please [report it privately](https://github.com/MustrHQ/.github/blob/main/SECURITY.md).
