@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>Open-source rota, clock-in, stock control and recipe screens for kitchens.</strong><br>
+  <strong>Open-source rota, stock control, recipe screens and temperature records for kitchens.</strong><br>
   Self-hosted on ordinary PHP + MySQL hosting. No per-user fees, no lock-in.
 </p>
 
@@ -28,9 +28,16 @@
 | **[Rota](https://github.com/MustrHQ/rota)** | Staff clock-in on a wall tablet with a PIN, weekly rota, late / no-show tracking, timesheets, wages and labour cost per brand. | [![Rota release](https://img.shields.io/github/v/release/MustrHQ/rota?label=&color=01216C)](https://github.com/MustrHQ/rota/releases/latest) |
 | **[Stock](https://github.com/MustrHQ/stock)** | Stock counts, product waste and ingredient waste, ordering with printable purchase orders, barcode scanning and stock-loss reporting. | [![Stock release](https://img.shields.io/github/v/release/MustrHQ/stock?label=&color=01216C)](https://github.com/MustrHQ/stock/releases/latest) |
 | **[Recipes](https://github.com/MustrHQ/recipes)** | Recipe screens on the kitchen tablet — ingredients, photos and step-by-step guides with timers — plus use-by labels, resumable recipe/image imports and cPanel image-folder imports. | [![Recipes release](https://img.shields.io/github/v/release/MustrHQ/recipes?label=&color=01216C)](https://github.com/MustrHQ/recipes/releases/latest) |
+| **[Kitchen Safety](https://github.com/MustrHQ/kitchen-safety)** | Login-free temperature entry and date history on the kitchen tablet, timed cooling, protected manager controls and backed-up ZIP/GitHub updates. | [![Kitchen Safety release](https://img.shields.io/github/v/release/MustrHQ/kitchen-safety?label=&color=01216C)](https://github.com/MustrHQ/kitchen-safety/releases/latest) |
 
-All three are built for delivery-only ("dark") kitchens running several brands from one team, and
+All four are built for delivery-only ("dark") kitchens running several brands from one team, and
 work just as well in cafés, bakeries and restaurants. Install any of them, side by side.
+
+### Kitchen Safety 1.1.0
+
+[Kitchen Safety](https://github.com/MustrHQ/kitchen-safety) now separates an open kitchen frontend from a protected admin panel. Staff enter their name or initials without signing in, view records by date and complete cooling checks. Managers review exceptions, manage controls and install verified release ZIPs with private backups. The frontend uses the Recipes tablet design and includes an installable PWA with local unsaved drafts. **Saving temperature records requires a server connection; drafts are not submitted records.**
+
+Read the [installation guide](https://github.com/MustrHQ/kitchen-safety/blob/main/docs/INSTALL.md), [upgrade guide](https://github.com/MustrHQ/kitchen-safety/blob/main/docs/UPDATES.md) and [releases](https://github.com/MustrHQ/kitchen-safety/releases). Validate the starting controls against each kitchen's HACCP plan before live use.
 
 ### Recipes 1.4.6
 
@@ -45,13 +52,13 @@ See the [changelog](https://github.com/MustrHQ/recipes/blob/main/CHANGELOG.md), 
 - **Your data stays yours.** Everything lives in your own database. No telemetry, no licence
   check, nothing sent back to us.
 - **Made for the shop floor.** Installable as an app on phones and tablets, big touch targets,
-  and it keeps working when the stockroom signal drops.
+  and connection behaviour is documented for each application. Kitchen Safety keeps unsaved drafts on the tablet; records require an online save.
 - **Free and open.** Licensed under the GNU AGPL-3.0 — run it, change it, and share
   improvements back.
 
 ### Get involved
 
 - Found a bug or have an idea? Open an issue on [Rota](https://github.com/MustrHQ/rota/issues),
-  [Stock](https://github.com/MustrHQ/stock/issues) or [Recipes](https://github.com/MustrHQ/recipes/issues).
+  [Stock](https://github.com/MustrHQ/stock/issues), [Recipes](https://github.com/MustrHQ/recipes/issues) or [Kitchen Safety](https://github.com/MustrHQ/kitchen-safety/issues).
 - Want to help build it? Read the [contributing guide](https://github.com/MustrHQ/.github/blob/main/CONTRIBUTING.md).
 - Found a security problem? Please [report it privately](https://github.com/MustrHQ/.github/blob/main/SECURITY.md).
